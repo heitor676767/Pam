@@ -11,7 +11,8 @@ namespace CopaHas.Data
 {
     public class DataContext: DbContext
     {
-        public DataContext(DbContextOptions<DataContext> options) : base(options)
+    //comentario foda
+            public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
             
         }
