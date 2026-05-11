@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CopaHAs.Models;
 
 namespace CopaHas.Models
 {
@@ -11,5 +12,10 @@ namespace CopaHas.Models
         public string Nome { get; set; }
         public string Cidade { get; set; }
         public int Capacidade { get; set; }
+
+        //1:N
+        public List<Jogo> Jogos { get; set; } = new List<Jogo>();
+
+        
     }
 }

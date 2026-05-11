@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CopaHas.Models.Enuns;
+using CopaHAs.Models;
 
 namespace CopaHas.Models
 {
@@ -12,9 +13,9 @@ namespace CopaHas.Models
         public string Nome { get; set; } = string.Empty;
         public int NumeroCamisa { get; set; }
         public string Posicao { get; set; } = string.Empty;
-        public int SelecaoId { get; set; }
+        public int SelecaoId { get; set; } //FK
         public StatusJogador Status { get; set; }
-        
+        public Selecao SelecaoIdNavegacao { get; set; } //Navegacao (N:1)
 
     }
 }
