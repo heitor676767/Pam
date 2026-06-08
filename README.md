@@ -1,3 +1,6 @@
+Não Consegui enviar os prits por que o meu docker nao inicia, fica iniciando infinito, mas acredito que esteja funcionando!
+Desculpa prof!!
+
 # Aula 10 - Git
 
 Aqui pode ser adicionado novos comentários para deixar a descrição do projeto mais rica.
